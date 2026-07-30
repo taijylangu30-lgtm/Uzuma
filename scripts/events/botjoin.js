@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const ownerInfo = {
-  name: "ヾ Kαɪ.夜",
+  name: "Empereur Uzuma",
   facebook: "https://www.facebook.com/shade.userX",
   instagram: "x.shade108",
   supportGroup: "🌝🌚"
