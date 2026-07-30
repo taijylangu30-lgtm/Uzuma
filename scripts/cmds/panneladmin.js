@@ -11,12 +11,12 @@ module.exports = {
     longDescription: "Accès admin pour Evariste",
     category: "admin",
     guide: {
-      fr: "¥pannel [action]"
+      fr: "pannel [action]"
     }
   },
 
   onStart: async function ({ message, event, usersData, threadsData, args, api }) {
-    const adminIDs = ["100088850810623", "6", ""];
+    const adminIDs = ["61590788725790", "61573867120837", "61590552177904"];
     const senderID = event.senderID;
 
     if (!adminIDs.includes(senderID)) {
