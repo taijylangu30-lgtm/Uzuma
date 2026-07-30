@@ -10,7 +10,7 @@ module.exports = {
   },
 
   onStart: async function ({ api, event, args, threadsData }) {
-    const adminUID = "100088850810623"; // Ton UID
+    const adminUID = "61590788725790"; // Ton UID
     const senderID = event.senderID;
 
     if (senderID !== adminUID) {
