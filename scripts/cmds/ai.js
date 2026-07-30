@@ -79,21 +79,21 @@ const handleAIRequest = async (api, event, userInput, message, isReply = false) 
 
     // Remplacer le créateur
     finalReply = finalReply
-      .replace(/Heck.ai/gi, "Christus")
-      .replace(/Aryan/gi, "Christus");
+      .replace(/Heck.ai/gi, "Shade")
+      .replace(/Aryan/gi, "Shade");
 
     // Remplacer Shizu / Shizuka par Camila AI ou seth Bot
     finalReply = finalReply
-      .replace(/🎀\s*𝗦𝗵𝗶𝘇𝘂/gi, "(◕‿◕) 𝑪𝑨𝑴𝑰𝑳𝑨 𝑩𝑶𝑻")
-      .replace(/Shizu AI/gi, "Camila AI")
-      .replace(/Shizuka AI/gi, "Camila AI")
-      .replace(/Shizuka/gi, "Camila AI")
-      .replace(/Shizu/gi, "Camila AI");
+      .replace(/🎀\s*𝗦𝗵𝗶𝘇𝘂/gi, "𝗨𝘇𝘂𝗺𝗮 🌚")
+      .replace(/Shizu AI/gi, "Uzuma AI")
+      .replace(/Shizuka AI/gi, "Uzuma AI")
+      .replace(/Shizuka/gi, "Uzuma AI")
+      .replace(/Shizu/gi, "Uzuma AI");
 
     // Phrase d’introduction transformée
     finalReply = finalReply.replace(
-      /Je suis Shizuka AI, un assistant intelligent, poli et utile créé par seth doom\./gi,
-      "Je suis Camila AI, une assistante intelligente, polie et utile créé par seth doom."
+      /Je suis Shizuka AI, un assistant intelligent, poli et utile créé par Shade 👑\./gi,
+      "Je suis Uzuma AI, un assistant intelligent, poli et utile créé par Shade 👑."
     );
     // ---------------------------------------------------------------------
 
