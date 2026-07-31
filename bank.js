@@ -4,7 +4,7 @@ const fonts = require('../../func/fonts.js');
 
 module.exports = {
 	config: {
-		name: "banque",
+		name: "bank",
 		version: "4.0",
 		author: "Aryan Chauhan",
 		countDown: 0,
