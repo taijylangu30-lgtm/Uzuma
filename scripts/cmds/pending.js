@@ -3,10 +3,10 @@ const fs = require("fs-extra");
 const path = require("path");
 
 const ownerInfo = {
-  name: "𝐶𝐻𝑅𝐼𝑆𝑇𝑈𝑆",
-  facebook: "https://www.facebook.com/Anos.Christus",
-  telegram: "ᏉᎾᏆᎧ ᎿᎬᏁ",
-  supportGroup: "🌚🌚⚡"
+  name: "ヾ Kαɪ.夜",
+  facebook: "https://www.facebook.com/shade.userX",
+  instagram : "x.shade108",
+  supportGroup: "🌚💔"
 };
 
 module.exports = {
@@ -113,7 +113,7 @@ module.exports = {
             "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
             `👑 𝐏𝐫𝐨𝐩𝐫𝐢𝐞́𝐭𝐚𝐢𝐫𝐞: ${ownerInfo.name}`,
             `🌐 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: ${ownerInfo.facebook}`,
-            `✈️ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: ${ownerInfo.telegram}`,
+            `✈️ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: ${ownerInfo.instagram}`,
             `🤖 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐆𝐂: ${ownerInfo.supportGroup}`
           ].join("\n");
 
@@ -137,7 +137,7 @@ module.exports = {
             "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
             `👑 Propriétaire: ${ownerInfo.name}`,
             `🌐 Facebook: ${ownerInfo.facebook}`,
-            `✈️ Telegram: ${ownerInfo.telegram}`,
+            `✈️ Instagram: ${ownerInfo.instagram}`,
             `🤖 Support GC: ${ownerInfo.supportGroup}`
           ].join("\n");
           api.sendMessage(fallbackMsg, targetThread);
